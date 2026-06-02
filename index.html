@@ -21,7 +21,9 @@
                     <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
                     <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#certifications" class="nav__link">Certifications</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
             </div>
@@ -40,7 +42,7 @@
         <section class="home bd-grid" id="home">
             <div class="home__data">
                 <h1 class="home__title">AKASH SATPUTE</h1>
-                <h2 class="home__subtitle">Machine Learning <span style="color: #1d4ed8;">|</span> Deep Learning <span style="color: #1d4ed8;">|</span> NLP <span style="color: #1d4ed8;">|</span> Generative AI </h2>
+                <h2 class="home__subtitle">AI/ML Engineer <span style="color: #1d4ed8;">|</span> Data Scientist <span style="color: #1d4ed8;">|</span> GenAI & AWS</h2>
                 <a target="_blank" href="https://www.canva.com/design/DAGWbFgdsfk/71k5lPfUWJgoPNKDtH9M9Q/view?utm_content=DAGWbFgdsfk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hec1bffbab3" class="home__button">Resume</a>
             </div>
 
@@ -66,9 +68,7 @@
 
                 <div>
                     <!-- <h2 class="about__subtitle">I'am Harshit</h2> -->
-                    <p class="about__text">I’m Akash, a Data Science & AI enthusiast with an MSc in Industrial Mathematics with Computer Applications from Pune University. 
-                        My expertise spans Machine Learning, Generative AI, Transformers, and Data Engineering, and I love transforming complex data into meaningful insights.
-                    I thrive on tackling challenges, learning rapidly, and contributing to impactful projects. If I’m not immersed in AI experiments, you’ll find me on the cricket field or keeping up with current events..</p>
+                    <p class="about__text">I’m Akash Satpute, an AI/ML Engineer and Data Scientist with over 1 year of experience in Generative AI, RAG systems, LLM applications, and AWS services. I hold a Master of Science in Industrial Mathematics with Computer Applications (IMCA) from Savitribai Phule Pune University. I specialize in building production-grade AI pipelines using LangChain, LangGraph, Amazon Bedrock, Python, and SQL, translating complex data structures into high-value solutions. I also hold certifications as an AWS Certified AI Practitioner and an AWS Certified Data Engineer – Associate.</p>
                 </div>
             </div>
         </section>
@@ -84,18 +84,48 @@
                 <div>
                     <h2 class="skills__subtitle">Technical Skills</h2>
                     <div class="skills-grid">
-                        <div class="skill-item"><i class="fas fa-robot"></i> Generative AI (LLMs, Transformers)</div>
-                        <div class="skill-item"><i class="fas fa-eye"></i> Computer Vision</div>
-                        <div class="skill-item"><i class="fas fa-book"></i> Hugging Face, LangChain, LangGraph</div>
-                        <div class="skill-item"><i class="fas fa-code-branch"></i> Scikit-learn, TensorFlow, PyTorch</div>
-                        <!-- <div class="skill-item"><i class="fas fa-magic"></i> OpenAI API</div> -->
-                        <div class="skill-item"><i class="fas fa-chart-bar"></i> Pandas, NumPy, Matplotlib, Seaborn, Plotly</div>
-                        <div class="skill-item"><i class="fas fa-chart-pie"></i> Power BI, Tableau</div>
-                        <!-- <div class="skill-item"><i class="fas fa-server"></i> Apache Kafka, Hadoop</div> -->
-                        <div class="skill-item"><i class="fab fa-aws"></i> AWS (EC2, S3, Glue, Athena)</div>
-                        <div class="skill-item"><i class="fas fa-tasks"></i> Fine-tuning AI Models</div>
-                        <!-- <div class="skill-item"><i class="fas fa-database"></i> Vector Databases (FAISS, Pinecone)</div> -->
-                        <div class="skill-item"><i class="fas fa-lightbulb"></i> Prompt Engineering</div>
+                        <div class="skill-item">
+                            <i class="fas fa-robot" style="font-size: 20px; margin-right: 12px; color: #1d4ed8;"></i>
+                            <div>
+                                <strong style="display: block; color: var(--second-color);">Generative AI & LLMs</strong>
+                                <span style="font-weight: normal; font-size: 13px; color: #555;">RAG, LangChain, LangGraph, Agentic AI, Prompt Engineering, LLM Evaluation, LLMOps, Fine-tuning, Vector Databases, Hugging Face, MCP</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-aws" style="font-size: 20px; margin-right: 12px; color: #1d4ed8;"></i>
+                            <div>
+                                <strong style="display: block; color: var(--second-color);">AWS Services</strong>
+                                <span style="font-weight: normal; font-size: 13px; color: #555;">Amazon Bedrock, S3, Lambda, API Gateway, SageMaker, DynamoDB, Redshift, Glue, Athena, OpenSearch, Kinesis</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-brain" style="font-size: 20px; margin-right: 12px; color: #1d4ed8;"></i>
+                            <div>
+                                <strong style="display: block; color: var(--second-color);">ML & NLP</strong>
+                                <span style="font-weight: normal; font-size: 13px; color: #555;">Classification, Regression, Clustering, NLP, Time Series, Statistics, Computer Vision, Deep Learning</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database" style="font-size: 20px; margin-right: 12px; color: #1d4ed8;"></i>
+                            <div>
+                                <strong style="display: block; color: var(--second-color);">Data Engineering & Tools</strong>
+                                <span style="font-weight: normal; font-size: 13px; color: #555;">Data Pipelines, ETL, REST APIs, FastAPI, Docker, Git, Unix, Streamlit, Flask, PostgreSQL</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line" style="font-size: 20px; margin-right: 12px; color: #1d4ed8;"></i>
+                            <div>
+                                <strong style="display: block; color: var(--second-color);">Libraries & Viz</strong>
+                                <span style="font-weight: normal; font-size: 13px; color: #555;">NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch, Keras, NLTK, Plotly, Power BI, Tableau, Matplotlib, Seaborn</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code" style="font-size: 20px; margin-right: 12px; color: #1d4ed8;"></i>
+                            <div>
+                                <strong style="display: block; color: var(--second-color);">Languages</strong>
+                                <span style="font-weight: normal; font-size: 13px; color: #555;">Python, SQL</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -103,10 +133,71 @@
                 <div>
                     <img src="images/Skills1.webp" alt="" class="skills__img">
                 </div>
-            </div>
         </section>
 
 
+        <!--===== EXPERIENCE =====-->
+        <section class="timeline-section section" id="experience">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline-single-container">
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Oct 2025 – May 2026</div>
+                    <div class="timeline-title">Data Scientist</div>
+                    <div class="timeline-subtitle">Comprinno Technologies, Pune</div>
+                    <ul class="timeline-desc">
+                        <li>Built production-grade Generative AI solutions using Amazon Bedrock for document intelligence and automated content generation.</li>
+                        <li>Improved extraction accuracy through validation, testing, and optimization for production-ready deployment.</li>
+                        <li>Implemented RAG-based workflows to enable querying of documents and data using natural language.</li>
+                        <li>Built scalable data pipelines using AWS services for document ingestion, processing, and storage, ensuring efficient and reliable data flow in production systems.</li>
+                        <li>Optimized LLM performance using prompt engineering, guardrails, and token optimization techniques to improve accuracy, safety, and cost efficiency.</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">March 2025 – Sept 2025</div>
+                    <div class="timeline-title">Associate Data Engineer (Intern)</div>
+                    <div class="timeline-subtitle">Parentheses Systems Private Limited, Pune</div>
+                    <ul class="timeline-desc">
+                        <li>Built an NLP-to-SQL system enabling real-time querying of manufacturing data, improving query accessibility for non-technical users.</li>
+                        <li>Implemented dynamic graph visualization using Plotly, Streamlit, and PostgreSQL to present query results intuitively.</li>
+                        <li>Designed a deep learning pipeline (YOLO + Donut) for extracting structured data from engineering drawings.</li>
+                        <li>Trained on 12 feature categories (e.g., GD&T, Notes, Threads) using 7K+ image patches with augmentation for robustness.</li>
+                        <li>Achieved 94.3% F1-score in structured data extraction using deep learning models.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!--===== EDUCATION =====-->
+        <section class="timeline-section section" id="education">
+            <h2 class="section-title">Education & Courses</h2>
+            <div class="timeline-single-container">
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Sept 2022 – May 2025</div>
+                    <div class="timeline-title">Master of Science (IMCA)</div>
+                    <div class="timeline-subtitle">Savitribai Phule Pune University, Pune</div>
+                    <p class="timeline-desc" style="padding-left: 0;">Industrial Mathematics with Computer Applications. Master's degree focused on advanced mathematics, statistics, machine learning, and computer science applications.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Sept 2023 – Apr 2024</div>
+                    <div class="timeline-title">Data Associate (Certification Course)</div>
+                    <div class="timeline-subtitle">Symbiosis Skills and Professional University</div>
+                    <p class="timeline-desc" style="padding-left: 0;">Specialized certification program covering data management, SQL databases, and fundamental data science practices.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Jul 2019 – May 2022</div>
+                    <div class="timeline-title">Bachelor of Science (Mathematics)</div>
+                    <div class="timeline-subtitle">S. P. College, Pune</div>
+                    <p class="timeline-desc" style="padding-left: 0;">Undergraduate degree focusing on pure and applied mathematics, numerical analysis, and analytical thinking.</p>
+                </div>
+
+            </div>
+        </section>
 
 
         <!-- Projects -->
@@ -117,53 +208,111 @@
                     <p>Every project is a unique piece of development 🧩</p>
                     <div class="projects-grid">
 
-                        <!-- Project: Deep Research AI Agent -->
+                        <!-- Project: MedAI -->
                         <div class="pro pro__1 reversed">
                             <div class="pro__img">
-                                <a target="_blank" href="https://github.com/ABSatpute/Deep-Research-AI-Agent" rel="noreferrer">
-                                    <img src="images\Deep_Research_AI_Agent.avif" alt="Deep Research AI Agent">
+                                <a target="_blank" href="https://github.com/ABSatpute/MedAI" rel="noreferrer">
+                                    <img src="images/medai.png" alt="MedAI - AI Medical Assistant">
+                                </a>
+                            </div>
+                            <div class="pro__text">
+                                <h3>MedAI - AI Medical Assistant</h3>
+                                <p>A multi-agent AI system using LangGraph and MCP for medical query processing, featuring a real-time voice assistant and WebSocket-based streaming chat with persistent memory.</p>
+                                <div class="stack">
+                                    <p>LangGraph</p>
+                                    <p>MCP</p>
+                                    <p>Amazon Bedrock</p>
+                                    <p>Flask-SocketIO</p>
+                                    <p>SQLite</p>
+                                    <p>Razorpay</p>
+                                </div>
+                                <div class="links">
+                                    <a target="_blank" href="https://github.com/ABSatpute/MedAI" rel="noreferrer">Code <i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project: Multilingual Indic Voicebot -->
+                        <div class="pro pro__1">
+                            <div class="pro__img">
+                                <a target="_blank" href="https://github.com/ABSatpute/multilingual-indic-voicebot" rel="noreferrer">
+                                    <img src="images/indic-voicebot.png" alt="Multilingual Indic Voicebot">
+                                </a>
+                            </div>
+                            <div class="pro__text">
+                                <h3>Multilingual Indic Voicebot</h3>
+                                <p>A real-time voice agent supporting 12 Indic languages and 6 speaker voices, built with Amazon Bedrock (Nova Pro/Micro) and Sarvam AI APIs for low-latency sales support.</p>
+                                <div class="stack">
+                                    <p>TypeScript</p>
+                                    <p>Amazon Bedrock</p>
+                                    <p>Sarvam AI</p>
+                                    <p>AWS CDK</p>
+                                    <p>Fargate</p>
+                                    <p>WebSockets</p>
+                                </div>
+                                <div class="links">
+                                    <a target="_blank" href="https://github.com/ABSatpute/multilingual-indic-voicebot" rel="noreferrer">Code <i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project: Lauki Phones AI Agent -->
+                        <div class="pro pro__1 reversed">
+                            <div class="pro__img">
+                                <a target="_blank" href="https://github.com/ABSatpute/Lauki-Phones-AI-Agent" rel="noreferrer">
+                                    <img src="images/lauki-phones.png" alt="Lauki Phones AI Agent">
+                                </a>
+                            </div>
+                            <div class="pro__text">
+                                <h3>Lauki Phones AI Agent</h3>
+                                <p>A production-grade telecom customer support agent built on Bedrock AgentCore and LangGraph. Features FAISS RAG, S3 caching, short/long-term memory, and rate limiting.</p>
+                                <div class="stack">
+                                    <p>Python</p>
+                                    <p>LangGraph</p>
+                                    <p>Bedrock AgentCore</p>
+                                    <p>GPT-4o</p>
+                                    <p>DynamoDB</p>
+                                    <p>Next.js</p>
+                                </div>
+                                <div class="links">
+                                    <a target="_blank" href="https://github.com/ABSatpute/Lauki-Phones-AI-Agent" rel="noreferrer">Code <i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project: Deep Research AI Agent -->
+                        <div class="pro pro__1">
+                            <div class="pro__img">
+                                <a target="_blank" href="https://github.com/ABSatpute/Deep_Research_AI_Agent" rel="noreferrer">
+                                    <img src="images/Deep_Research_AI_Agent.avif" alt="Deep Research AI Agent">
                                 </a>
                             </div>
                             <div class="pro__text">
                                 <h3>Deep Research AI Agent</h3>
-                                <p>An AI-powered research assistant leveraging advanced language models and live web search to deliver 
-                                structured, high-quality answers for research-heavy tasks.</p>
-                                <ul>
-                                    <li>Multi-step AI workflow with <strong>LangGraph</strong></li>
-                                    <li>Real-time search using <strong>Tavily API</strong></li>
-                                    <li>Summarization & synthesis via <strong>Mixtral</strong> & <strong>DeepSeek</strong></li>
-                                    <li>Structured results with titles, URLs, and summaries</li>
-                                </ul>
+                                <p>An AI-powered research assistant automating multi-step workflows using LangGraph and LangChain, with Tavily web search integration and stock/weather analysis tools.</p>
                                 <div class="stack">
                                     <p>LangGraph</p>
+                                    <p>LangChain</p>
+                                    <p>Streamlit</p>
                                     <p>Tavily API</p>
-                                    <p>Mixtral LLM</p>
-                                    <p>DeepSeek LLM</p>
+                                    <p>Groq API</p>
                                 </div>
                                 <div class="links">
                                     <a target="_blank" href="https://github.com/ABSatpute/Deep_Research_AI_Agent" rel="noreferrer">Code <i class="fab fa-github"></i></a>
-                                    <!-- Uncomment below if you have a live demo -->
-                                    <!-- <a target="_blank" href="https://your-live-demo-link.com" rel="noreferrer">Live Demo <i class="fa fa-link"></i></a> -->
                                 </div>
                             </div>
                         </div>
 
                         <!-- Project: Bank Customer Churn Prediction -->
-                        <div class="pro pro__1">
+                        <div class="pro pro__1 reversed">
                             <div class="pro__img">
                                 <a target="_blank" href="https://github.com/ABSatpute/Bank_Customer_Churn_Prediction" rel="noreferrer">
-                                    <img src="images\bank-customer-churn.jpg" alt="Bank Customer Churn Prediction">
+                                    <img src="images/bank-customer-churn.jpg" alt="Bank Customer Churn Prediction">
                                 </a>
                             </div>
                             <div class="pro__text">
                                 <h3>Bank Customer Churn Prediction</h3>
-                                <p>A machine learning-powered Streamlit app predicting customer churn based on profile data, enabling businesses to identify high-risk customers and reduce attrition.</p>
-                                <ul>
-                                    <li>Built with <strong>TensorFlow</strong> & <strong>Keras</strong></li>
-                                    <li>Deployed via <strong>Streamlit</strong> for real-time predictions</li>
-                                    <li>Data preprocessing with <strong>Pandas</strong> & <strong>Scikit-learn</strong></li>
-                                    <li>Encoders & scalers stored using <strong>Pickle</strong></li>
-                                </ul>
+                                <p>A machine learning-powered Streamlit app built with TensorFlow, Keras, Pandas, and Scikit-learn that predicts customer churn based on profile data to reduce attrition.</p>
                                 <div class="stack">
                                     <p>TensorFlow</p>
                                     <p>Keras</p>
@@ -246,6 +395,29 @@
         </section>
 
 
+        <!--===== CERTIFICATIONS =====-->
+        <section class="certs-section section" id="certifications">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certs-grid">
+                
+                <div class="cert-card">
+                    <i class="fab fa-aws cert-icon"></i>
+                    <div class="cert-info">
+                        <h4>AWS Certified Data Engineer – Associate</h4>
+                        <p>Credentials ID: DEA-C01 | Issued: Jan 2026</p>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <i class="fab fa-aws cert-icon"></i>
+                    <div class="cert-info">
+                        <h4>AWS Certified AI Practitioner</h4>
+                        <p>Credentials ID: AIF-C01 | Issued: Dec 2025</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
 
         <!--===== CONTACT =====-->
@@ -284,21 +456,15 @@
     <!--===== SCROLL REVEAL =====-->
     <script src="https://unpkg.com/scrollreveal"></script>
 
+    <!--===== JQUERY =====-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <!--===== MAIN JS =====-->
     <script src="js/main.js"></script>
 
     <!---==== PARTICLES JS=====-->
     <div id="particles-js"></div>
     <script src="js/particles.min.js"></script>
-    <script>
-        particlesJS.load('particles-js', 'particles.json',
-            function () {
-                console.log('particles.json loaded...')
-            })
-    </script>
-    <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/particles.js"></script>
-
-
-
+    <script type="text/javascript" src="js/app.js"></script>
 </body></html>
