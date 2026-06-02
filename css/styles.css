@@ -814,16 +814,20 @@ canvas.particles-js-canvas-el {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    margin-top: 0.5rem;
-    font-size: 0.85rem;
+    margin-top: 0.75rem;
+    font-size: 0.8rem;
     color: var(--first-color);
+    border: 1.5px solid var(--first-color);
+    padding: 5px 12px;
+    border-radius: 6px;
     font-weight: 500;
-    transition: color 0.3s;
+    transition: all 0.3s ease;
 }
 
 .cert-link:hover {
-    color: var(--second-color);
-    text-decoration: underline;
+    background-color: var(--first-color);
+    color: #fff;
+    text-decoration: none;
 }
 
 .cert-info h4 {
