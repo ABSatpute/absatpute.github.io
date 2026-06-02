@@ -804,9 +804,26 @@ canvas.particles-js-canvas-el {
     border-color: var(--first-color);
 }
 
-.cert-icon {
-    font-size: 2.5rem;
-    color: #ff9900; /* AWS orange */
+.cert-badge {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
+
+.cert-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--first-color);
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.cert-link:hover {
+    color: var(--second-color);
+    text-decoration: underline;
 }
 
 .cert-info h4 {
