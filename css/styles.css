@@ -576,6 +576,15 @@ canvas.particles-js-canvas-el {
     margin-bottom: 0;
   }
 
+  @media screen and (max-width: 900px) {
+    .nav__item {
+      margin-left: 1.2rem;
+    }
+    .nav__link {
+      font-size: 0.85rem;
+    }
+  }
+
   .nav__toggle {
     display: none;
   }
