@@ -48,45 +48,4 @@ const scrollActive = () => {
 };
 window.addEventListener('scroll', scrollActive);
 
-
-/*===== SCROLL REVEAL ANIMATION =====*/
-const sr = ScrollReveal({
-    origin: 'left',
-    distance: '80px',
-    duration: 650,
-    reset: true,
-});
-
-/*GLOBAL SECTION TITLES*/
-sr.reveal('.section-title', { delay: 100 });
-
-/*SCROLL HOME*/
-sr.reveal('.home__title', { delay: 100 });
-sr.reveal('.home__subtitle', { delay: 150 });
-sr.reveal('.home__button', { delay: 200 });
-sr.reveal('.home__social-icon', { interval: 150 });
-
-/*SCROLL ABOUT*/
-sr.reveal('.about__img', { delay: 100 });
-sr.reveal('.about__text', { delay: 300 });
-
-/*SCROLL SKILLS*/
-sr.reveal('.skills__subtitle', { delay: 100 });
-sr.reveal('.skill-item', { interval: 80 });
-sr.reveal('.skills__img', { delay: 300 });
-
-/*SCROLL EXPERIENCE & EDUCATION*/
-sr.reveal('.timeline-item', { interval: 100 });
-
-/*SCROLL PROJECTS*/
-sr.reveal('.project-content', { interval: 30 });
-sr.reveal('.pro__img', { interval: 70 });
-sr.reveal('.pro__text', { interval: 30 });
-sr.reveal('.stack', { interval: 5 });
-sr.reveal('.links', { interval: 5 });
-
-/*SCROLL CERTIFICATIONS*/
-sr.reveal('.cert-card', { interval: 100 });
-
-/*SCROLL CONTACT*/
-sr.reveal('.contact__box', { interval: 100 });
+
